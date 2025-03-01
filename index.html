@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Search Engine</h1>
+        <div class="search-container">
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search the web..." required>
+                <button type="submit">Search</button>
+                <button type="button" id="clearButton">Clear</button>
+            </form>
+            <div id="autocomplete"></div>
+        </div>
+        <div id="results"></div>
+        <div id="searchHistory">
+            <h3>Search History</h3>
+            <ul id="historyList"></ul>
+        </div>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
